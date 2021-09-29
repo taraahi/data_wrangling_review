@@ -79,4 +79,18 @@ litters_readr
 ```
 
 
+## Exporting data
+
+Export the mlb sub-table (remember we made it the smaller subset).
+
+```{r}
+write_csv(mlb_df, "./data/mlb_subtable.csv")
+```
+
+Now it's in the desktop folder!
+
+
+
+
+
 
